@@ -202,13 +202,41 @@
 #     var=str(d[x])
 #     if var [-1]=='2' or var [-1]=='4' or var[-1]=='6' or var [-1]=='8' or var [-1]=='0':
 #      print(x,var)
-import random
-a=int(input("enter any number between 1 to 9"))
-b=random.randrange(1,10)
-print(b)
-if a>b:
-    print("number is bigger than guess")
-elif b>a:
-    print("number is smaller than guess")
-else:
-    print("both are equal")
+# import random
+# a=int(input("enter any number between 1 to 9"))
+# b=random.randrange(1,10)
+# print(b)
+# if a>b:
+#     print("number is bigger than guess")
+# elif b>a:
+#     print("number is smaller than guess")
+# else:
+#     print("both are equal")
+
+#break and continue####
+#break
+# for a in range(1,10):
+#     if a%2==0:
+#         break
+#     print(a)
+
+#continue
+
+# for a in range(1,10):
+#     if a%3==0:
+#         continue
+#     print(a)
+
+# a=b=c="ajay",22,99.99
+# print(a)
+#
+# num=int(input("ent any numbr"))
+# if (num%2==0):
+#       print("even")
+# else:
+#     print("not even")
+
+count=4
+while(count>=1):
+    print(count)
+    count-=1
