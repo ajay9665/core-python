@@ -55,22 +55,39 @@
 #     print(e)
 
 
-try:
-    num1=int(input("enter a numerator"))
-    num2=int(input("enter a denominator"))
-    result=num1/num2
+# try:
+#     num1=int(input("enter a numerator"))
+#     num2=int(input("enter a denominator"))
+#     result=num1/num2
+#
+#     if result %1 !=0:
+#         raise ValueError("result is not an integer")
+#
+#     if result<0:
+#         raise  ValueError("result is negative")
+#     print(f"the result of the division is:{result}")
+#
+# except ValueError as ve:
+#     print(f"error:{ve}")
+# except ZeroDivisionError:
+#     print("error cannot divide ny zero")
+# except Exception as e:
+#     print(e)
 
-    if result %1 !=0:
-        raise ValueError("result is not an integer")
 
-    if result<0:
-        raise  ValueError("result is negative")
-    print(f"the result of the division is:{result}")
+class A:
+    "i am python developer"
+    name="rays"
+    age=23
+    print(name)
 
-except ValueError as ve:
-    print(f"error:{ve}")
-except ZeroDivisionError:
-    print("error cannot divide ny zero")
-except Exception as e:
-    print(e)
+    def show(self):
+        "i am a ajay"
+        self.salary=1000
+        print(self.salary)
 
+obj=A()
+print(A.age)
+print(obj.__doc__)
+obj.show()
+print(obj.show.__doc__)
